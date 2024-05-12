@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Jewellery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Artificial Jewellery</h1>
+        <nav>
+            <ul>
+                <li><a href="#shop">Shop Now</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="shop">
+            <h2>Discover Our Collection</h2>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1578469488462-96f9af23e4b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFydGlmaWNpYWwlMjBqZXdlbGxlcnl8ZW58MHx8MHx8fDA%3D" alt="Elegant Earrings">
+                <h3>Elegant Earrings</h3>
+                <p>Handcrafted with precision, these earrings are perfect for any occasion.</p>
+            </div>
+            <div class="product">
+                <img src="https://plus.unsplash.com/premium_photo-1681276168422-ebd2d7e95340?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGFydGlmaWNpYWwlMjBqZXdlbGxlcnl8ZW58MHx8MHx8fDA%3D" alt="Stunning Necklace">
+                <h3>Stunning Necklace</h3>
+                <p>Stand out with this necklace, designed to complement any outfit.</p>
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are passionate about creating exquisite artificial jewelry that combines elegance with affordability. Our pieces are designed to inspire and enhance, making every moment special.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Latest From Our Blog</h2>
+            <article>
+                <h3>How to Care for Your Artificial Jewelry</h3>
+                <p>Learn the best practices for keeping your artificial jewelry looking its best. From cleaning to storage, we've got you covered.</p>
+            </article>
+            <article>
+                <h3>Introducing Our New Collection</h3>
+                <p>Discover the latest additions to our artificial jewelry collection. Each piece is meticulously crafted to reflect timeless elegance.</p>
+            </article>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@artificialjewellery.com</p>
+            <p>Phone: +1234567890</p>
+            <p>Visit us at: 123 Main St, Anytown, USA</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Artificial Jewellery. All rights reserved.</p>
+    </footer>
+</body>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+main {
+    padding: 40px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+</style>
+</html>
